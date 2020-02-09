@@ -411,6 +411,10 @@
    * ------------------------------------------------------------------------
    */
 
+  $(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+  });
+
   $.fn[NAME] = Alert._jQueryInterface;
   $.fn[NAME].Constructor = Alert;
 
